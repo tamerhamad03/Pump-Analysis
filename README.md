@@ -1,7 +1,7 @@
 # Pump-Analysis (5-Stelliger Code: 71638)
 # Pumpen-Analyse – DHBW Karlsruhe
 
-Dieses Projekt wurde im Rahmen des Moduls *Turbomachinery* an der Dualen Hochschule Baden-Württemberg (DHBW) Karlsruhe durchgeführt. Ziel ist die Analyse des Betriebsverhaltens einer Industriewasserpumpe auf Basis realer Messdaten sowie herstellerseitiger Kennlinien.
+Dieses Projekt wurde im Rahmen des Moduls *Strömungsmaschinen* an der Dualen Hochschule Baden-Württemberg (DHBW) Karlsruhe durchgeführt. Ziel ist die Analyse des Betriebsverhaltens einer Industriewasserpumpe auf Basis realer Messdaten sowie herstellerseitiger Kennlinien.
 
 ---
 
