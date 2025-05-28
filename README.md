@@ -58,13 +58,13 @@ Ziel ist es, mit diesen Informationen die **tatsächliche energetische Leistung*
 
 ### 💠 Hydraulische Leistung:
 \[
-P_hyd = rho * g * Q * H
+   P_hyd = rho * g * Q * H
 \]
-
-- \( \rho \) = Dichte der Flüssigkeit [kg/m³]  
-- \( g \) = Erdbeschleunigung [m/s²]  
-- \( Q \) = Volumenstrom [m³/s]  
-- \( H \) = Förderhöhe [m]
+ 
+- \( rho ) = Dichte der Flüssigkeit [kg/m³]  
+- \( g ) = Erdbeschleunigung [m/s²]  
+- \( Q ) = Volumenstrom [m³/s]  
+- \( H ) = Förderhöhe [m]
 
 ---
 
