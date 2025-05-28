@@ -135,6 +135,6 @@ Das Notebook erzeugt folgende Diagramme:
 ## Projektstruktur
 
 ```bash
-├── Pump_Analysis.ipynb          # Analyse-Notebook mit Berechnungen & Plots
-├── volume_flow_data.csv         # Messdaten der Pumpe
-├── README.md                    # Projektbeschreibung (diese Datei)
+Pump_Analysis.ipynb          # Analyse-Notebook mit Berechnungen & Plots
+volume_flow_data.csv         # Messdaten der Pumpe
+README.md                    # Projektbeschreibung (diese Datei)
