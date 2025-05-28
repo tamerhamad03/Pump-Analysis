@@ -57,7 +57,7 @@ Ziel ist es, mit diesen Informationen die **tatsächliche energetische Leistung*
 ## 📐 Verwendete Formeln
 
 ### 💠 Hydraulische Leistung:
-> \[
+\[
 P_hyd = rho * g * Q * H
 \]
 
