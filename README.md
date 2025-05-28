@@ -58,7 +58,7 @@ Ziel ist es, mit diesen Informationen die **tatsächliche energetische Leistung*
 
 ### 💠 Hydraulische Leistung:
 > \[
-P_{\text{hyd}} = \rho \cdot g \cdot Q \cdot H
+P_hyd = rho * g * Q * H
 \]
 
 - \( \rho \) = Dichte der Flüssigkeit [kg/m³]  
