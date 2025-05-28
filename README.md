@@ -1,11 +1,11 @@
 # Pump-Analysis
-# 💧 Pumpen-Analyse – DHBW Karlsruhe
+# Pumpen-Analyse – DHBW Karlsruhe
 
 Dieses Projekt wurde im Rahmen des Moduls *Turbomachinery* an der Dualen Hochschule Baden-Württemberg (DHBW) Karlsruhe durchgeführt. Ziel ist die Analyse des Betriebsverhaltens einer Industriewasserpumpe auf Basis realer Messdaten sowie herstellerseitiger Kennlinien.
 
 ---
 
-## 🟦 Ausgangssituation
+## Ausgangssituation
 
 In einem industriellen Prozess wird eine Wasserpumpe eingesetzt, deren Leistungskennwerte (Förderhöhe, Energieverbrauch, Wirkungsgrad) untersucht werden sollen. 
 
@@ -19,7 +19,7 @@ Ziel ist es, mit diesen Informationen die **tatsächliche energetische Leistung*
 
 ---
 
-## 🧾 Aufgabenstellung
+## Aufgabenstellung
 
 1. **Gesamten Energieverbrauch berechnen**  
    → Wie viel elektrische Energie wurde im Messzeitraum verbraucht?
@@ -35,7 +35,7 @@ Ziel ist es, mit diesen Informationen die **tatsächliche energetische Leistung*
 
 ---
 
-## ⚙️ Methodik
+## Methodik
 
 1. **CSV-Datei einlesen:**  
    Die Messwerte wurden als Zeitreihe im Format `.csv` aufgezeichnet.
@@ -54,9 +54,9 @@ Ziel ist es, mit diesen Informationen die **tatsächliche energetische Leistung*
 
 ---
 
-## 📐 Verwendete Formeln
+## Verwendete Formeln
 
-### 💠 Hydraulische Leistung:
+### Hydraulische Leistung:
 \[
    P_hyd = rho * g * Q * H
 \]
@@ -68,43 +68,45 @@ Ziel ist es, mit diesen Informationen die **tatsächliche energetische Leistung*
 
 ---
 
-### ⚡ Elektrische Leistung (vereinfacht):
+### Elektrische Leistung (vereinfacht):
 
 > \[
-P_{\text{el}} = \frac{P_{\text{hyd}}}{\eta}
+P_el = P_hyd \ η
 \]
 
-- \( \eta \) = Wirkungsgrad der Pumpe (aus Kennlinie oder fest angenommen)
+- \( η ) = Wirkungsgrad der Pumpe (aus Kennlinie oder fest angenommen)
 
 ---
 
-### 🔋 Elektrische Energie:
+### Elektrische Energie:
 
 > \[
-E_{\text{el}} = P_{\text{el}} \cdot \Delta t
+E_el = P_el * Delta t
 \]
 
-- \( \Delta t \) = Zeitdifferenz pro Messintervall (z. B. 60 s)
+- ( Delta t ) = Zeitdifferenz pro Messintervall (z. B. 60 s)
 
 ---
 
-### 💧 Hydraulische Energie:
+### Hydraulische Energie:
 
 > \[
-E_{\text{hyd}} = P_{\text{hyd}} \cdot \Delta t
-\]
-
----
-
-### 🧾 Gesamtwirkungsgrad:
-
-> \[
-\overline{\eta} = \frac{E_{\text{hyd}}^{\text{gesamt}}}{E_{\text{el}}^{\text{gesamt}}}
+E_hyd = P_hyd * Delta t
 \]
 
 ---
 
-## 📊 Visualisierungen
+### Verlust Energie:
+
+> \[
+E_verlust = E_el - E_hyd
+\]
+
+---
+
+
+
+## Visualisierungen
 
 Das Notebook erzeugt folgende Diagramme:
 
@@ -121,7 +123,7 @@ Das Notebook erzeugt folgende Diagramme:
 
 ---
 
-## 🛠️ Benötigte Bibliotheken
+## Benötigte Bibliotheken
 
 - `pandas`
 - `numpy`
@@ -130,7 +132,7 @@ Das Notebook erzeugt folgende Diagramme:
 
 ---
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```bash
 ├── Pump_Analysis.ipynb          # Analyse-Notebook mit Berechnungen & Plots
